@@ -1,0 +1,73 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+body {
+  background-image: url('image/background2.jpg');  
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #363636;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  padding: 10px;
+  width: 280px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+
+<body>
+<h1 style="margin-top: 250px; margin-bottom:20px; text-align: center; color: white; font-size:50px"><i>Thank you for shopping with us!</i></h1>
+
+<div style="position:absolute; top:360px; right:100px">
+<a href="logout.php" class="button" class="button" style="vertical-align:middle"><span>Logout</span></a>
+</div>
+
+<div style="position:absolute; top:360px; left:100px">
+<a href="cart.php" class="button" class="button" style="vertical-align:middle"><span>Back to Cart </span></a>
+</div>
+
+<div style="position:absolute; top:360px; left:500px">
+<a href="home.php" class="button" class="button" style="vertical-align:middle"><span>Continue Shopping </span></a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="styling.css" type="text/css" rel="stylesheet" />
+<style>
+body {
+  background-image: url('image/background2.jpg');  
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  border-right:1px solid #bbb;
+}
+
+.navbar a {
+  float: left;
+  font-size: 22px;
+  color:white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 40px;
+  border-right:1px solid #bbb;
+}
+.navbar a:hover{
+  background-color: #BB8FCE;
+  border-right:1px solid #bbb;
+}
+
+.navbar a:active{
+  background-color: green;
+  border-right:1px solid #bbb;
+}
+
+</style>
+</head>
+
+<body>
+<h1 style="margin-top: 30px; margin-bottom:20px; text-align: center; color: white; font-size:50px"><i>Glamify</i></h1>
+
+    <div class="logout_button" align="right">
+            <form action="logout.php">
+                <button type="submit" value="Logout" class="button" class="button">Logout</button>
+            </form>
+        </div>
+
+<div class="navbar">
+  <a href="home.php">Home</a>
+  <a href="brands.php">Brands</a>
+  <a href="categories.html">Categories</a>
+        <div class="cart_button" align="right">
+            <form action="cart.php">
+                <button type="submit" value="View Cart" class="button" class="button">View Cart</button>
+            </form>
+        </div>
+</div>
+
+<a href="face.php"><img src="image/face.png" width="250px" height="270" style="margin-left: 60px; margin-top: 80px"></a>
+<a href="eye.php"><img src="image/eye.png" width="250px" height="270" style="margin-left: 50px; margin-top: 80px"></a>
+<a href="lip.php"><img src="image/lip.png" width="250px" height="270" style="margin-left: 50px; margin-top: 80px"></a>
+<a href="shadow.php"><img src="image/shadows.png" width="250px" height="270" style="margin-left: 50px; margin-top: 80px"></a>
+</body>
+</html>

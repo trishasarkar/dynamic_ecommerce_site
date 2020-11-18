@@ -1,0 +1,65 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  background-image: url('image/w3.jpg');  
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #363636;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+<h1 style="margin-top: 350px; margin-left: 500px; font-size: 85px; color:white;"><i>Glamify</i></h1>
+<br>
+<div style="position:absolute; top:30px; right:30px">
+<a href="login.php" class="button" class="button" style="vertical-align:middle"><span>Login </span></a>
+
+</div>
+
+<div style="position:absolute; bottom:30px; left:30px">
+<a href="signup.php" class="button" class="button" style="vertical-align:middle"><span>Sign Up </span></a>
+</div>
+
+
+
+</body>
+</html>
