@@ -8,3 +8,7 @@ The following softwares were used in this project:
 * [XAMPP](https://www.apachefriends.org/download.html)
 * [Visual Studio Code](https://code.visualstudio.com/download)
 
+## Contributors
+
+* [Trisha Sarkar](https://github.com/trishasarkar)
+
