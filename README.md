@@ -1,2 +1,10 @@
-# dynamic_ecommerce_site
-Fully functional website in the beauty niche using HTML, CSS, JS and PHP; fetching data from a relational database. 
+# Glamify - Dynamic Ecommerce Site
+
+Glamify is the one-stop shop for your beauty needs. It is an e-commerce website that offers various range of makeup products to the users. Technologies like HTML, CSS, Javascript , Bootstrap and PHP have been used to develop it. The products are showcased by fetching from a relational database using mySQL .
+
+## Prerequisites
+
+The following softwares were used in thie project:
+* [XAMPP](https://www.apachefriends.org/download.html)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+
